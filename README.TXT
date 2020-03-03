@@ -5,5 +5,6 @@ Please use the version in releases which contains all the tools needed by the sc
 To perform first-time setup, or start over from scratch, run INIT.BAT
 To build, run BUILD.BAT (output is ./aseprite/build/bin)
 To update JUST the Aseprite source, run UPDATE.BAT
+To reset (deleting aseprite and deps) run RESET.BAT
 
 You must have Visual Studio 2019 installed at "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\" for the build script to work. If it is installed somewhere else, you'll have to change the location in the build script. Additionally, if you have MinGW/gcc installed, you may have to set the IGNORE_DIR in the build script.
